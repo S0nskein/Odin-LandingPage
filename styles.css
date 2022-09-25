@@ -59,7 +59,7 @@ header {
 }
 .statement p {
     color: #E5E7EB;
-    margin: 0;
+    margin: 0 0 8px 0;
 }
 
 .statement button {
@@ -69,6 +69,9 @@ header {
     font-family: "Roboto";
     font-weight: bolder;
     padding: 8px 45px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
     border-radius: 8px;
 }
 
@@ -108,18 +111,27 @@ header {
 .info li {
     display: flex;
     flex-direction: column;
-    margin: 8px 16px;
-    margin: 8px;
+    margin: 8px 24px;
 }
 
 .info_image {
     display: flex;
     background-color: #F9FAF8;
-    height: 100px;
+    height: 7em;
     padding: 16px;
-    border: 5px solid #3882F6;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 8px;
     border-radius: 15px;
 }
+
+.info cite {
+    color: #7a8699;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 8px;
+}
+
 /*that was fast*/
 
 .quote {
@@ -128,22 +140,57 @@ header {
     align-content: center;
     background-color: #E5E7EB;
     font-family: "Roboto", sans-serif;
-    padding: 1em 10%;
+    padding: 7em 16%;
 }
 
 .quote em {
     display: flex;
     justify-content: left;
     color: #1F2937;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 100;
 }
 
 .quote b {
     display: flex;
     justify-content: right;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+/*phew!*/
+
+.callout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 3em 10%;
+    color: #E5E7EB;
+    font-family: "Roboto", sans-serif;
+    padding: 3em 10%;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 15px;
+}
+
+.callout h3 {
     font-size: 24px;
     font-weight: bolder;
+    margin: 0;
+}
+
+.callout button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    padding: 8px 45px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
 }
 
 /* .logo{
